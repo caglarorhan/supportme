@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+.content-wrapper {
+    width: 40%; /* or any width you prefer */
+    max-width: 1200px; /* or any max-width you prefer */
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
